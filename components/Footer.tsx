@@ -1,5 +1,5 @@
 import { Users, Camera, Briefcase, ArrowRight, Phone, Mail, MapPin, Navigation } from 'lucide-react';
-import headerLogo from '../assets/header-logo.png';
+import headerLogo from '../src/assets/header-logo.png';
 import DirectorMessage from './DirectorMessage';
 
 const directors = [

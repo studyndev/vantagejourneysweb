@@ -1,4 +1,4 @@
-import planIcon from './assets/plan-icon.png';
+import { Plane } from 'lucide-react';
 
 const ribbonItems = [
   "Group Booking Discounts",
@@ -25,7 +25,7 @@ function RibbonRow({ items, direction }: { items: string[]; direction: 'left' | 
               <div key={setIdx === 0 ? idx : `${idx}-dup`} className="flex items-center mx-6 text-white">
                 <div className="relative flex items-center justify-center mr-3">
                   <div className="absolute w-5 h-5 bg-[#ffb703] opacity-60 rounded-full left-0 bottom-0"></div>
-                  <img src={planIcon} alt="" aria-hidden="true" className="w-5 h-5 object-contain relative z-10" />
+                  <Plane aria-hidden="true" className="w-5 h-5 relative z-10" />
                 </div>
                 <span className="text-xl font-bold whitespace-nowrap tracking-wide">{text}</span>
               </div>
