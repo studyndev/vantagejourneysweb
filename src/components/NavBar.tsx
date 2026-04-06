@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const navLinks = [
   { name: 'Home', hasDropdown: false, href: '/' },
   { name: 'Ticketing', hasDropdown: false, href: '/ticketing' },
-  { name: 'Hotels', hasDropdown: false, href: '#' },
-  { name: 'Visas', hasDropdown: false, href: '#' },
+  { name: 'Hotels', hasDropdown: false, href: '/hotel-booking' },
+  { name: 'Visas', hasDropdown: false, href: '/visa-application' },
   { name: 'Tours', hasDropdown: true, href: '#' },
   { name: 'Destinations', hasDropdown: true, href: '#' },
   { name: 'Pages', hasDropdown: true, href: '#' },
