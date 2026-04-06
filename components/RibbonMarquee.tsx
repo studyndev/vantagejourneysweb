@@ -1,4 +1,4 @@
-import planIcon from '../assets/plan-icon.png';
+import planIcon from './assets/plan-icon.png';
 
 const ribbonItems = [
   "Group Booking Discounts",
