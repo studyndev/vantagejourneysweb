@@ -1,4 +1,4 @@
-import { Users, Camera, Briefcase, ArrowRight, Phone, Mail, MapPin, Navigation } from 'lucide-react';
+import { Users, Camera, Briefcase, ArrowRight, Phone, Mail, MapPin, Navigation, ArrowUp } from 'lucide-react';
 import headerLogo from '../assets/header-logo.png';
 import DirectorMessage from './DirectorMessage';
 
@@ -106,11 +106,18 @@ export default function Footer() {
           </p>
 
           <button
+            className="fixed bottom-8 right-8 bg-[#5C5AE8] hover:bg-[#4A48C8] text-white p-3.5 rounded-full shadow-lg transition-all duration-300 hover:-translate-y-1 z-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#5C5AE8] cursor-pointer"
+            aria-label="Scroll to top"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          >
+            <ArrowUp className="w-5 h-5" />
+          </button>
+          {/* <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="absolute right-0 -top-6 w-12 h-12 bg-[#ff5a36] text-white rounded-full flex items-center justify-center hover:bg-[#e04a29] transition-all duration-300 shadow-lg shadow-[#ff5a36]/30 group cursor-pointer"
           >
             <ArrowRight className="w-6 h-6 -rotate-90 group-hover:-translate-y-1 transition-transform duration-300" strokeWidth={2.5} />
-          </button>
+          </button> */}
         </div>
       </div>
     </footer>
