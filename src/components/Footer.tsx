@@ -11,7 +11,7 @@ export default function Footer() {
 
       <div className="w-full max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 pt-16 border-t border-gray-100">
         <div className="flex flex-col">
-          <img src={headerLogo} alt="Vantage Journeys" className="h-16 w-auto object-contain mb-6" />
+          <img src={headerLogo} alt="Vantage Journeys" className="h-45 w-auto object-contain mb-6" />
           <p className="text-sm text-gray-500 leading-relaxed mb-8 pr-4">
             From your first step to your dream destination, Vantage Journeys is by your side. Providing the best travel experiences.
           </p>
